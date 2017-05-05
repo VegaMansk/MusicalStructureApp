@@ -1,0 +1,46 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure App</string>
+
+    <!-- Category name for favorites [CHAR LIMIT=20] -->
+    <string name="category_favorites">Favorites</string>
+
+    <!-- Category name for artists [CHAR LIMIT=20] -->
+    <string name="category_artists">Artists</string>
+
+    <!-- Category name for  for Albums [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the search screen [CHAR LIMIT=20] -->
+    <string name="category_search">Search</string>
+
+    <!-- Explenation for the favorites screen -->
+    <string name="point_of_the_favorites_screen">Playlist favorites</string>
+
+    <!-- Explenation for the album screen -->
+    <string name="point_of_the_album_screen">Favorite albums, sorted by artist, title or recently added</string>
+
+
+    <!-- Explenation for the artist screen -->
+    <string name="point_of_the_artists_screen">Favorite artists, sorted by name or recently added</string>
+
+    <!-- Explenation for the search screen -->
+    <string name="point_of_the_search_screen">Find your favorite songs, artists, podcasts, playlists and friends</string>
+
+
+
+</resources>
