@@ -34,4 +34,8 @@
 
     <!-- Background color for the search -->
     <color name="category_search">#ff5722</color>
+
+    <!-- Button color -->
+    <color name="button_color">#8ac148</color>
+
 </resources>

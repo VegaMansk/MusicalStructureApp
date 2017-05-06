@@ -17,6 +17,10 @@
         android:background="@color/category_search"
         android:text="@string/point_of_the_search_screen" />
 
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/button"/>
+
 </LinearLayout>
 
 

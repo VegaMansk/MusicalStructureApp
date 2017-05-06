@@ -16,6 +16,12 @@
         android:background="@color/category_albums"
         android:text="@string/point_of_the_album_screen" />
 
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/button"
+        />
+
+
 </LinearLayout>
 
 

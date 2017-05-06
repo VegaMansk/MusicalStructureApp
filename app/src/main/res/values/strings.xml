@@ -17,7 +17,7 @@
     <string name="app_name">Musical Structure App</string>
 
     <!-- Category name for favorites [CHAR LIMIT=20] -->
-    <string name="category_favorites">Favorites</string>
+    <string name="category_favorites">Playing favorites</string>
 
     <!-- Category name for artists [CHAR LIMIT=20] -->
     <string name="category_artists">Artists</string>
@@ -28,19 +28,25 @@
     <!-- Category name for the search screen [CHAR LIMIT=20] -->
     <string name="category_search">Search</string>
 
+
     <!-- Explenation for the favorites screen -->
-    <string name="point_of_the_favorites_screen">Playlist favorites</string>
+    <string name="point_of_the_favorites_screen">Playlist favorites, all your favorites play</string>
 
     <!-- Explenation for the album screen -->
-    <string name="point_of_the_album_screen">Favorite albums, sorted by artist, title or recently added</string>
+    <string name="point_of_the_album_screen">Favorite albums, sorted by artist, title or recently added. Select an album and push the "play" button</string>
 
 
     <!-- Explenation for the artist screen -->
-    <string name="point_of_the_artists_screen">Favorite artists, sorted by name or recently added</string>
+    <string name="point_of_the_artists_screen">Favorite artists, sorted by name or recently added. Select an artist and push the "play" button</string>
 
     <!-- Explenation for the search screen -->
-    <string name="point_of_the_search_screen">Find your favorite songs, artists, podcasts, playlists and friends</string>
+    <string name="point_of_the_search_screen">Find your favorite songs, artists, podcasts, playlists and friends. Select your favorite an push  the "play" button</string>
 
+    <!-- Explenation for the play button -->
+    <string name="play"> from here a call to a music player:\ne.g. \nIntent intent = new Intent();\nintent.setAction(android.content.Intent.ACTION_VIEW);\nFile file = new File(YOUR_SONG_URI); \n intent.setDataAndType(Uri.fromFile(file), "audio/*");
+startActivity(intent);</string>
 
+    <!-- text on the play button -->
+    <string name="play_button_text">play</string>
 
 </resources>

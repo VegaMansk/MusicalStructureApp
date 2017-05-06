@@ -16,6 +16,11 @@
         android:background="@color/category_artists"
         android:text="@string/point_of_the_artists_screen" />
 
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/button"
+        />
+
 </LinearLayout>
 
 
